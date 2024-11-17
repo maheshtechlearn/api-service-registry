@@ -33,4 +33,5 @@ spec:
     - protocol: TCP
       port: 8081
       targetPort: 8081
-  type: LoadBalancer  # Can also be NodePort or ClusterIP
+      nodePort: 30001  # External port
+  type: NodePort

@@ -35,4 +35,4 @@ spec:
       port: 8081
       targetPort: 8081
       nodePort: 30001  # External port
-  type: NodePort
+  type: LoadBalancer

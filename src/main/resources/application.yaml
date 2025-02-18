@@ -8,4 +8,4 @@ eureka:
     register-with-eureka: false
     fetch-registry: false
     serviceUrl:
-      defaultZone: http://api-service-registry-deployment-0.api-service-registry-service.default.svc.cluster.local:8081/eureka
+      defaultZone: http://eureka-0.eureka.default.svc.cluster.local:8081/eureka
